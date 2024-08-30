@@ -43,7 +43,6 @@ jobs:
           # Print a message indicating that the current time has been saved
           echo "Current time has been saved to $filename"
       - name: Test UTs
-        continue-on-error: true
         run: |
           gradle --no-build-cache clean test --continue
       - name: Upload Duration
