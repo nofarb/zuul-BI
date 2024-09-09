@@ -24,6 +24,6 @@ import java.io.FilenameFilter;
 public class GroovyFileFilter implements FilenameFilter {
     @Override
     public boolean accept(File dir, String name) {
-        return name.endsWith(".groovy");
+        return name.endsWith(".groovy");  
     }
 }
